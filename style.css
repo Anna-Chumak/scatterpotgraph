@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(162, 233, 255);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 900px;
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  height: 50px;
+}
+.chart {
+  width: 840px;
+  height: 490px;
+  background-color: cornsilk;
+}
+
+.dot {
+  width: 5px;
+  background-color: blue;
+}
+
+.dot:hover {
+  fill: red;
+}
+
+#tooltip {
+  position: fixed;
+  font-weight: bold;
+  width: 110px;
+  height: auto;
+  padding: 10px;
+  color: rgb(13, 44, 80);
+  background-color: rgba(12, 146, 146, 0.9);
+  border-radius: 5px;
+}
